@@ -64,7 +64,18 @@ body * {
 }
 
 /* MAIN */
-
+.left-section {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    background: red;
+}
+.right-section {
+    display: inline-block;
+    float: right;
+    width: 40%;
+    background: blue;
+}
 
 
 /* FOOTER */
