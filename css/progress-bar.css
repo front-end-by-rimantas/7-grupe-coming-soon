@@ -1,0 +1,32 @@
+.progress-bar {
+    display: inline-block;
+    width: 100%;
+}
+    .progress-bar > .texts {
+        display: inline-block;
+        width: 100%;
+    }
+        .progress-bar > .texts > p {
+            display: inline-block;
+            float: left;
+        }
+        .progress-bar > .texts > span {
+            display: inline-block;
+            float: right;
+        }
+    .progress-bar > .bar-full {
+        display: inline-block;
+        width: 100%;
+        height: 4px;
+        margin-top: 10px;
+        background-color: #CCC;
+    }
+        .progress-bar > .bar-full > .bar-value {
+            display: inline-block;
+            width: 80%;
+            height: 100%;
+            background-color: #03A9F5;
+        }
+    .progress-bar+.progress-bar {
+        margin-top: 20px;
+    }

@@ -69,11 +69,31 @@ body * {
     float: left;
     width: 50%;
 }
+    .left-section > h3 {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .left-section > p {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
 .right-section {
     display: inline-block;
     float: right;
     width: 40%;
 }
+    .right-section > h3 {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .right-section > p {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
+    }
 
 
 /* FOOTER */
