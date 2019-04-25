@@ -122,3 +122,20 @@ footer {
                 color: #03A9F5;
                 border-radius: 50%;
             }
+    footer .footer-padding {
+        position: relative;
+    }
+    footer .fa-angle-up {
+        width: 40px;
+        padding: 10px;
+        font-size: 28px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFF;
+        background-color: #E81F63;
+        text-decoration: none;
+        border-radius: 50%;
+        position: absolute;
+        top: -25px;
+        right: -11px;
+    }
