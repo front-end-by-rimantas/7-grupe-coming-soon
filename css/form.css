@@ -2,17 +2,54 @@ form {
     display: inline-block;
     width: 100%;
 }
+    form .float-left {
+        float: left;
+    }
+    form .float-right {
+        float: right;
+    }
     form > input {
         display: inline-block;
         width: 100%;
+        margin-bottom: 10px;
         line-height: 40px;
         font-size: 24px;
         background-color: transparent;
         border: none;
-        border-bottom: 2px solid #FFF;
-        color: #FFF;
+        border-bottom: 2px solid #999;
+        color: #333;
         outline-color: transparent;
     }
         form > input::placeholder {
+            color: #666;
+        }
+        form > input.inline-two {
+            width: calc(50% - 10px);
+            float: left;
+            margin-right: 20px;
+        }
+            form > input.inline-two:nth-of-type(2n) {
+                margin-right: 0;
+            }
+    form > textarea {
+        display: inline-block;
+        width: 100%;
+        height: 100px;
+        margin-bottom: 10px;
+        line-height: 20px;
+        font-size: 18px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid #999;
+        color: #333;
+        outline-color: transparent;
+        resize: none;
+    }
+    
+    form.form-white > input {
+        border-bottom: 2px solid #FFF;
+        color: #FFF;
+    }
+        form.form-white > input::placeholder {
             color: #FFF;
         }
