@@ -175,6 +175,28 @@ footer {
         top: -25px;
         right: -11px;
     }
+    footer .bottom-texts {
+        display: inline-block;
+        width: 500px;
+        margin-left: calc( (100% - 500px) / 2 );
+        margin-top: 20px;
+        text-align: center;
+        color: #FFF;
+        line-height: 24px;
+        font-size: 20px;
+    }
+        footer .bottom-texts > * {
+            display: inline-block;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+            footer .bottom-texts > *:last-child {
+                margin-bottom: 0;
+            }
+        footer .bottom-texts > div > .line {
+            margin: 0 15px;
+        }
+
 @media ( max-width: 700px ) {
     footer .fa-angle-up {
         display: none;
