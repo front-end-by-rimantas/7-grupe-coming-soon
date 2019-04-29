@@ -53,3 +53,16 @@ form {
         form.form-white > input::placeholder {
             color: #FFF;
         }
+
+@media ( max-width: 900px ) {
+    form > input.inline-two {
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media ( max-width: 480px ) {
+    form .btn {
+        width: 100%;
+    }
+}
