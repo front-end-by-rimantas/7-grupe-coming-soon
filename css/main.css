@@ -107,6 +107,9 @@ body * {
         /* background-image: url(../img/mouse.jpeg);
         background-size: contain; */
     }
+        .hero-row > .mouse > .wheel:hover {
+            animation-play-state: paused;
+        }
 @keyframes mouse-scroll {
     0% {
         margin-top: 30px;
